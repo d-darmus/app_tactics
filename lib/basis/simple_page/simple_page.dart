@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:app_tactics/basis/sample/sample_page0.dart';
+import 'package:app_tactics/home/home.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
@@ -24,6 +24,6 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
-    return const SamplePage0();
+    return const HomePage();
   }
 }
